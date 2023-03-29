@@ -13,9 +13,10 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, SearchBarComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
