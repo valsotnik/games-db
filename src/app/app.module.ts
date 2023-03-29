@@ -14,9 +14,10 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchBarComponent],
+  declarations: [AppComponent, SearchBarComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
